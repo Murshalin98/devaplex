@@ -1,0 +1,8 @@
+$(window).on('scroll', function (event) {
+    var navbar = $(window).scrollTop();
+    if (navbar > 115) {
+      $(".navigation").addClass("sticky");
+    } else {
+      $(".navigation").removeClass("sticky");
+    }
+  });

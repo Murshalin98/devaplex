@@ -1,0 +1,19 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.sticky{
+    background: #838383;
+    animation: navbar 1s;
+}
+@keyframes navbar{
+    from{
+        top: -165px;
+    }
+    to{
+        top: 0;
+    }
+}
